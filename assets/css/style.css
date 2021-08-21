@@ -43,6 +43,10 @@ nav ul {
     
 }
 
+#profile-pic {
+    border-radius: 2%;
+}
+
 #about h2 {
     text-align: center;
     color: rgb(0, 48, 87);
@@ -79,13 +83,15 @@ h3 {
     position: relative;
     align-items: center;
     margin: 20px;
-    height: 275px;
+    /* height: 275px; */
     text-align: center;
     border-style: solid;
     border-width: 1px;
     background-color: rgb(234, 170, 0);
     padding: 10px;
     z-index: 0;
+    border-radius: 5%;
+
 }
 
 .first img {
@@ -98,7 +104,7 @@ h3 {
     flex-direction: row;
     align-items: center;
     margin: 20px;
-    height: 250px;
+    /* height: 250px; */
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -106,6 +112,7 @@ h3 {
     padding: 10px;
     flex: 50%;
     max-width:85%;
+    border-radius: 5%;
 }
 
 .card img {
